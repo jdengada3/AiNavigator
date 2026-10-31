@@ -1,0 +1,53 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache
+*.cache
+*.pdb
+*.ilk
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]enchmark[Rr]esults/
+
+# IDE files
+.idea/
+.vscode/
+
+# Local developer settings
+*.csproj.user
+*.vbproj.user
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet generated packages
+*.nupkg
+*.snupkg
+
+# Publish output
+publish/
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+secrets.json
